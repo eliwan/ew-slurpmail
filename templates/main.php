@@ -1,6 +1,6 @@
 <?php
-script('slurpmail', 'script');
-style('slurpmail', 'style');
+script('ew-slurpmail', 'script');
+style('ew-slurpmail', 'style');
 ?>
 
 <div id="app">

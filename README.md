@@ -1,4 +1,10 @@
-# Slurp Mail
+# ew-slurpmail
+
+ownCloud plugin which allows a user to read all mail attachments into a specific folder.
+This can for example be used in combination with a scanner which sends all scanned documents to a specific mailbox.
+
+## Installation
+
 Place this app in **owncloud/apps/**
 
 ## Publish to App Store
