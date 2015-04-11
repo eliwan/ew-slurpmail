@@ -30,12 +30,12 @@ install:
   - ocdev setup core --dir owncloud --branch $BRANCH
   - cd owncloud
   - ocdev ci $DB
-  # enable slurpmail
-  - mv ../slurpmail apps/
-  - php -f console.php app:enable slurpmail
+  # enable ewslurpmail
+  - mv ../ewslurpmail apps/
+  - php -f console.php app:enable ewslurpmail
 
 before_script:
-  - cd apps/slurpmail
+  - cd apps/ewslurpmail
 
 script:
   - phpunit -c phpunit.xml

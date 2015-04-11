@@ -1,6 +1,6 @@
 <?php
 /**
- * ownCloud - ew-slurpmail
+ * ownCloud - ewslurpmail
  *
  * This file is licensed under the Affero General Public License version 3 or
  * later. See the COPYING file.
@@ -9,7 +9,7 @@
  * @copyright Eliwan bvba 2015
  */
 
-namespace OCA\SlurpMail\Controller;
+namespace OCA\EwSlurpMail\Controller;
 
 use \OCP\IRequest;
 use \OCP\AppFramework\Http\TemplateResponse;
@@ -38,7 +38,7 @@ class PageController extends Controller {
 	 */
 	public function index() {
 		$params = ['user' => $this->userId];
-		return new TemplateResponse('ew-slurpmail', 'main', $params);  // templates/main.php
+		return new TemplateResponse('ewslurpmail', 'main', $params);  // templates/main.php
 	}
 
 	/**

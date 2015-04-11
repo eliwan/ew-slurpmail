@@ -1,2 +1,2 @@
-owncloud-slurpmail (0.0.1)
+owncloud-ewslurpmail (0.0.1)
 * First release
